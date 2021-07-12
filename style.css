@@ -1,0 +1,90 @@
+body {
+    padding: 50px;
+    font-family: sans-serif;
+    /* font-weight: bolder; */
+    background: linear-gradient(#b999ff, #4500, #c9c6fa);
+}
+
+.table {
+    color: rgb(0, 0, 0);
+    height: 400px;
+    /* width: 600px; */
+    width: 100%;
+}
+
+.selected-date {
+    position: sticky;
+    height: 600px;
+    background-color: #3b0777;
+    color: white;
+}
+
+.calendar {
+    padding-left: 50px;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+tbody {
+    font-size: 20;
+    border-color: white;
+    font-weight: 400px
+}
+
+.card {
+    /* width: 600px; */
+    width: 100%;
+    display: inline-table;
+}
+
+.second {
+    display: inline-block;
+    /* width: 300px; */
+    text-align: center;
+    font-size: 35px;
+}
+
+.arrow {
+    color: #ffffff;
+}
+
+.events {
+    text-align: left;
+    font-size: 18px;
+    list-style: none;
+}
+
+.year {
+    border: none;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.add-btn {
+    background-color: tomato;
+    border-radius: 360px;
+    border: none;
+    padding: 8px;
+}
+
+.fa-plus {
+    color: white;
+}
+
+tbody>tr>td:hover {
+    transition: 0.5s all ease-in-out;
+    background-color: #cdbee9;
+    color: #3b0777;
+    ;
+}
+
+.month {
+    border: none;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+tbody>tr>td {
+    font-size: 26px;
+}
